@@ -1,0 +1,59 @@
+﻿body{
+   padding-top: 120px;
+
+}
+.cardnumber1:hover{
+
+    border-color:dodgerblue;
+    background-color: dodgerblue;
+}
+
+.cardnumber2:hover{
+
+    border-color:dodgerblue;
+    background-color:dodgerblue;
+}
+
+.cardnumber3:hover{
+
+    border-color:dodgerblue;
+    background-color:dodgerblue;
+}
+
+.nomepartitocard{
+
+    font-weight:bold;
+}
+
+.cardnumber4:hover{
+    border-color:dodgerblue;
+    background-color: dodgerblue;
+}
+
+.cardnumber5:hover{
+    border-color:dodgerblue;
+    background-color:dodgerblue;
+}
+
+.cardnumber6:hover{
+    border-color:dodgerblue;
+    background-color:dodgerblue;
+}
+
+.cardhover:hover{
+    border-color:lightgray;
+    background-color: lightgray;
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: none;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.marginecarddecks{
+    margin-bottom: 0.30rem;
+}
