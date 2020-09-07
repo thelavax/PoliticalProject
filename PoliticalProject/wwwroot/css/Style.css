@@ -1,6 +1,6 @@
 ﻿body{
-   padding-top: 120px;
-
+   padding-top: 0px;
+  
 }
 .cardnumber1:hover{
 
@@ -41,10 +41,9 @@
 }
 
 .cardhover:hover{
-    border-color:lightgray;
-    background-color: lightgray;
+    border-color: lightgrey;
+    background-color:lightgrey;
 }
-
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
@@ -57,3 +56,20 @@
 .marginecarddecks{
     margin-bottom: 0.30rem;
 }
+
+.backgroundcontainer{
+    background-color:lightgrey;
+}
+
+.angolismussaticontainer{
+    border-radius: .25rem;
+}
+
+.colorenavbar {
+    background-color: #f5a045;
+}
+
+.accauno{
+    color: red;
+}
+

@@ -4,33 +4,37 @@
 
 @RenderBody()
 
-<link href="~/css/StileDiProva.css" rel="stylesheet" />
-<div class="container">
 
-    <div class="row">
-        <div class="col-md-3 col-sm-12 text-dark">
-            <h1>@ViewData["NomePartito"]</h1> 
-        </div>
-    </div>
+<div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
 
-    <div class="row ">
-        <div class="col-md-3 ">
-            <img class="img-fluid img-thumbnail Immagine" src="~/ImagesJpg/@ViewData["ImmaginePartito"]" alt="Immagine di Forza Italia" />
-        </div>
-        <div class="col-md-4 ">Colonna2</div>
-    </div>
 
-    <div class="row">
-        <div class="col-12">
-            <div class="card" style="width:100%">
-                <div class="card-body">
-                    <h5 class="card-title nomepartitocard">@ViewData["NomePartito"]</h5>
-                    <p class="card-text">Italia Viva è un partito creato nel settembre 2019 da Matteo Renzi. I propri riferimenti ideali sono ravvisabili nel liberalismo sociale e nei moderni concetti della Terza via, ovvero una via politica di centro al fine di individuare un efficace compromesso di giustizia sociale, pari opportunità, valorizzazione del merito, dell’iniziativa privata, tra le politiche economiche liberiste e quelle ispirate al socialismo. Rifiuta quindi gli inquadramenti politici tradizionale per una politica più concentrata sulle idee che sugli ideali.In politica estera prevalgono significative posizioni europeiste.</p>
-                    <a href="#" class="btn btn-primary">Scopri di più</a>
+    <div class="container-fluid backgroundcontainer angolismussaticontainer"> <!--Perchè angolismussaticontainer non fa come classe?-->
+        <div class="container bg-dark">
+            <div class="row ">
+                <div class="col-md-3 col-sm-12 text-light">
+                    <h1>@ViewData["NomePartito"]</h1>
+                </div>
+                <div class="col-md-3 mr-auto">
+                    <img class="img-fluid img-thumbnail Immagine bg-dark" src="~/ImagesJpg/@ViewData["ImmaginePartito"]" alt="Immagine di Italia Viva" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card" style="width:100%">
+                        <div class="card-body">
+                            <h5 class="card-title nomepartitocard">@ViewData["NomePartito"]</h5>
+                            <p class="card-text">@ViewData["DescrizioneOggettivaPartito"]</p>
+                            <a href="#" class="btn btn-primary">Scopri di più</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-         
-</div>
-

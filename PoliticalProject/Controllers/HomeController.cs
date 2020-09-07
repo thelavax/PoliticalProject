@@ -28,6 +28,20 @@ namespace PoliticalProject.Controllers
             return View();
         }
 
+        public IActionResult ChiSiamo()
+        {
+            return View();    
+        }
+
+        public IActionResult ElezioniRegionali() 
+        {
+            return View(); 
+        }
+
+        public IActionResult Referendum()
+        {
+            return View();
+        }
         public IActionResult Partiti()
         {
             return View();
