@@ -1,6 +1,42 @@
 ﻿body{
-   padding-top: 58px;
+   padding-top: 90px;
   
+}
+
+.lineaorizzontale {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 6;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.immaginegruppoeuropeo {
+    max-height: 180px;
+    max-width: 200px;
+}
+.immagineleaderpresentazionepartito{
+    max-height:200px;
+    max-width:265px;
+    border: 2px solid;
+    border-color: black;
+}
+.cardpresentazionepartito{
+   
+}
+.immaginepresentazionepartito{
+    max-height: 190px;
+    max-width: 190px;
+}
+
+.immaginepartitopresentazionepartito{
+    max-height: 100px;
+    max-width: 100px;
+}
+.nomepartitopresentazionepartito{
+    text-align: center;
+}
+.paddingmedia{
+    padding: 5px;
 }
 .cardnumber1:hover{
 

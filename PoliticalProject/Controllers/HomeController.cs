@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using PoliticalProject.Models;
+
 
 namespace PoliticalProject.Controllers
 {
@@ -56,6 +59,12 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+       /* public IActionResult Download()
+        {
+            var FileVirtualPath = "~/PdfPartitiSecondoPartiti/Referendum.pdf";
+            return File(FileVirtualPath, "application/force- download", Path.GetFileName(FileVirtualPath));
+        }*/
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

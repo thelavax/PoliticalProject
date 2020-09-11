@@ -2,3 +2,56 @@
     ViewData["Title"] = "Elezioni Regionali";
     Layout = "_Layout";
 }
+
+
+
+<div class=" container">
+    <div  class="card-deck text-center marginecarddecks">
+        <a asp-controller="ElezioniRegionali" asp-action="Toscana" class="card cardnumber1 cardhover p-1 " style="width: 100%;">
+            <img src="~/ImmaginiRegioni/ToscanaCartina.png" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard">Toscana</h5>               
+            </div>
+        </a>
+
+        <a asp-controller="ElezioniRegionali" asp-action="Veneto" class="card cardnumber2 cardhover p-1" style="width:100%">
+            <img src="~/ImmaginiRegioni/VenetoCartina.png" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard">Veneto</h5>      
+            </div>
+        </a>
+
+        <a asp-controller="ElezioniRegionali" asp-action="Campania" class="card cardnumber3 cardhover p-1" style="width: 100%;">
+            <img src="~/ImmaginiRegioni/CampaniaCartina.png" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard">Campania</h5>               
+            </div>
+        </a>
+    </div>
+
+    <div class="card-deck text-center marginecarddecks">
+
+        <a asp-controller="ElezioniRegionali" asp-action="Liguria" class="card cardnumber4 cardhover p-1" style="width: 100%;">
+            <img src="~/ImmaginiRegioni/LiguriaCartina.png" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard">Liguria</h5>              
+            </div>
+        </a>
+
+        <a asp-controller="ElezioniRegionali" asp-action="Puglia" class="card cardnumber5 cardhover p-1" style="width: 100%;">
+            <img src="~/ImmaginiRegioni/PugliaCartina.png" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard">Puglia</h5>             
+            </div>
+        </a>
+
+        <a asp-controller="ElezioniRegionali" asp-action="Marche" class="card cardnumber6 cardhover p-1" style="width: 100%;">
+            <img src="~/ImmaginiRegioni/MarcheCartina.png" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard">Marche</h5>              
+            </div>
+        </a>
+
+    </div>
+</div>
+

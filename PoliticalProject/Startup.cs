@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+
 namespace PoliticalProject
 {
     public class Startup
@@ -24,7 +25,7 @@ namespace PoliticalProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddRazorPages().AddRazorRuntimeCompilation();
+            //services.AddRazorPages().AddRazorRuntimeCompilation();
 
 
         }
@@ -33,7 +34,7 @@ namespace PoliticalProject
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
-            app.UseBrowserLink();
+           // app.UseBrowserLink();
 
             if (env.IsDevelopment())
             {
