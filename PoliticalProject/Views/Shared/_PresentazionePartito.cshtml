@@ -11,66 +11,63 @@
             <img src="~/ImagesJpg/@ViewData["ImmaginePartito"]" alt="Alternate Text" class="immaginepresentazionepartito" />
         </div>
     </div>
-</div>
 
-<div class="media text-center">
-    <div class="media-body paddingmedia">
-        <h1 class="mt-0">@ViewData["NomePartito"]</h1>
-        <p>@ViewData["DescrizionePartito"]</p>
-    </div>
-    <!--<img src="~/ImagesJpg/forzaitalia.jpg" class="ml-3" alt="..." style="max-height: 160px; max-width: 160px;"> -->
-</div>
 
-<hr />
-
-<div class="media text-center">
-    <div class="media-body paddingmedia">
-        <h2 class="mt-0">Leader: </h2>
-        <p>@ViewData["LeaderPartito"]</p>
-    </div>
-    <!--<img src="~/ImagesJpg/forzaitalia.jpg" class="ml-3" alt="..." style="max-height: 160px; max-width: 160px;"> -->
-</div>
-
-<div class="container text-dark">
-    <div class="row text-center">
-        <div class="col-md-12">
-            <img src="~/ImmaginiLeader/@ViewData["ImmagineLeaderPartito"]" alt="Alternate Text" class=" immagineleaderpresentazionepartito" />
+    <div class="media text-center">
+        <div class="media-body paddingmedia">
+            <h1 class="mt-0">@ViewData["NomePartito"]</h1>
+            <p>@ViewData["DescrizionePartito"]</p>
         </div>
     </div>
-</div>
 
-<hr />
+    <hr />
 
-<div class="media text-center">
-    <div class="media-body paddingmedia">
-        <h2 class="mt-0">Gruppo Europeo di appartenenza: </h2>
-        <p>@ViewData["GruppoEuropeo"]</p>
-    </div>
-    <!--<img src="~/ImagesJpg/forzaitalia.jpg" class="ml-3" alt="..." style="max-height: 160px; max-width: 160px;"> -->
-</div>
-
-<div class="container text-dark">
-    <div class="row text-center">
-        <div class="col-md-12">
-            <img src="~/ImmaginiGruppoEuropeoPng/@ViewData["ImmagineGruppoEuropeo"]" alt="Alternate Text" class=" immaginegruppoeuropeo" />
+    <div class="media text-center">
+        <div class="media-body paddingmedia">
+            <h2 class="mt-0">Leader: </h2>
+            <p>@ViewData["LeaderPartito"]</p>
         </div>
     </div>
-</div>
 
-<br />
-
-
-<hr />
-
-<div class="media text-center">
-    <div class="media-body paddingmedia">
-        <h2 class="mt-0">Ideologia: </h2>
-        <p>@ViewData["Ideologia"]</p>
+    <div class="container text-dark">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <img src="~/ImmaginiLeader/@ViewData["ImmagineLeaderPartito"]" alt="Alternate Text" class=" immagineleaderpresentazionepartito" />
+            </div>
+        </div>
     </div>
-    <!--<img src="~/ImagesJpg/forzaitalia.jpg" class="ml-3" alt="..." style="max-height: 160px; max-width: 160px;"> -->
-</div>
 
-<hr />
+    <hr />
+
+    <div class="media text-center">
+        <div class="media-body paddingmedia">
+            <h2 class="mt-0">Gruppo Europeo di appartenenza: </h2>
+            <p>@ViewData["GruppoEuropeo"]</p>
+        </div>
+    </div>
+
+    <div class="container text-dark">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <img src="~/LoghiPartitiEuropei/@ViewData["ImmagineGruppoEuropeo"]" alt="Alternate Text" class=" immaginegruppoeuropeo" />
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+
+    <hr />
+
+    <div class="media text-center">
+        <div class="media-body paddingmedia">
+            <h2 class="mt-0">Ideologia: </h2>
+            <p>@ViewData["Ideologia"]</p>
+        </div>        
+    </div>
+
+    <hr />
+</div>
 
 <div class="container text-center">
     <a href="@ViewData["LinkStatuto"]" target="_blank" class="btn btn-primary">Vai allo statuto di @ViewData["NomePartito"]</a>
@@ -79,57 +76,3 @@
 </div>
 
 
-<div asp-controller="Home" asp-action="Download" class="btn btn-primary">Download</div>
-<a class="nav-link" asp-controller="Home" asp-action="Download">Download</a>
-<!--
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 nomepartitopresentazionepartito">
-            <h1 class="text-dark">ViewData["NomePartito"]</h1>
-        </div>
-        <div class="col-md-6">
-            <img src="~/ImagesJpg/forzaitalia.jpg" alt="Alternate Text" class="immaginepresentazionepartito" />
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-9">
-            <div class="jumbotron-fluid">
-                <h1 class="display-4">ViewData["NomePartito"]</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<div class="container-fluid backgroundcontainer angolismussaticontainer">
-    Perchè angolismussaticontainer non fa come classe?
-    <div class="container bg-dark">
-        <div class="row ">
-            <div class="col-md-3 col-sm-12 text-light">
-                <h1>ViewData["NomePartito"]</h1>
-            </div>
-            <div class="col-md-3 mr-auto">
-                <img class="img-fluid img-thumbnail Immagine bg-dark" src="~/ImagesJpg/ViewData["ImmaginePartito"]" alt="Immagine di Italia Viva" />
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                <div class="card" style="width:100%">
-                    <div class="card-body">
-                        <h5 class="card-title nomepartitocard">ViewData["NomePartito"]</h5>
-                        <p class="card-text">ViewData["DescrizioneOggettivaPartito"]</p>
-                        <a href="#" class="btn btn-primary">Scopri di più</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>-->

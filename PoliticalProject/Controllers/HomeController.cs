@@ -36,6 +36,24 @@ namespace PoliticalProject.Controllers
             return View();    
         }
 
+        public IActionResult Archivio()
+        {
+            return View();
+        
+        }
+
+        public IActionResult Mes()
+        {
+            return View();
+        }
+        public IActionResult PolitiCult()
+        {
+            return View();
+        }
+        public IActionResult PoliticandoOggi()
+        {
+            return View();
+        }
         public IActionResult ElezioniRegionali() 
         {
             return View(); 
@@ -60,6 +78,25 @@ namespace PoliticalProject.Controllers
             return View();
         }
 
+        public IActionResult PartitoDemocratico()
+        {
+            return View();
+        }
+
+        public IActionResult Lega()
+        {
+            return View();
+        }
+
+        public IActionResult FratelliDItalia()
+        {
+            return View();
+        }
+
+        public IActionResult MoVimento5Stelle()
+        {
+            return View();
+        }
        /* public IActionResult Download()
         {
             var FileVirtualPath = "~/PdfPartitiSecondoPartiti/Referendum.pdf";

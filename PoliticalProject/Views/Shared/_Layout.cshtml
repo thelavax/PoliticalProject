@@ -3,19 +3,32 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content=" @ViewData["Descrizione"]"/>
+    <meta name="keywords" content="politixitalia, politix italia, politix, italia, @ViewData["Keywords"]"/>
     <title>@ViewData["Title"] - PolitiXitalia</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/Style.css" />
     <link rel="stylesheet" href="~/css/StileDiProva.css" />
-    <!--Sistemare l'icona-->
-    <link rel="Shortcut Icon" href="~/Logovoltabuona.ico" type="image/x-icon" />
+    <link rel="Shortcut Icon" href="~/X.ico" type="image/x-icon" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177924732-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-177924732-1');
+    </script>
 </head>
 <body>
     <header>
         <nav style="background-color:#f5a045" class="navbar navbar-expand-md navbar-dark fixed-top colorenavbar">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index"> <img src="~/ImagesPng/Logovoltabuona.png" alt="Brand Image" style="max-height : 50%; max-width: 6.5rem;"/></a>
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index"> <img src="~/ImagesPng/Logovoltabuona.png" alt="Brand Image" style="max-height : 50%; max-width: 6.5rem;" /></a>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -23,29 +36,66 @@
                 <div class="collapse navbar-collapse " id="navbarResponsive">
                     <ul class="navbar-nav font-weight-bold" style="font-size:large">
                         <li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="ChiSiamo">Chi Siamo</a></li>
-                        <li class="nav-item" ><a class="nav-link" asp-controller="Home" asp-action="ElezioniRegionali">Elezioni Regionali</a></li>
-                        <li class="nav-item" ><a class="nav-link" asp-controller="Home" asp-action="Referendum">Referendum</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="PoliticandoOggi" asp-action="Index">Politicando Oggi</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="PolitiCult" asp-action="Index">PolitiCult</a></li>
                         <li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="Partiti">Partiti</a></li>
+                        <li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="Archivio">Archivio</a></li>
+                        <li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="ChiSiamo">Chi Siamo</a></li>
+
                     </ul>
                 </div>
+
+                <!--<a class="nav-link pl-5" asp-controller="Home" asp-action="Partiti"><i class="fa fa-instagram fa-2x text-danger"></i></a>
+                    -->
             </div>
         </nav>
     </header>
     
-
-    <!--Tutte le altre pagine inseriranno il body qui > scegli bene questo div se lo vuoi
-      container oppure container-fluid-->
-    <div class="container-fluid distaccamentoperilfixed azzeramentopadding p-0" > <!--Perchè se imposto il padding 0 attraverso una classe esterna non funziona?-->
-        <!--  NOTA: Se togli questo div si incazza e apre il sito zoomato indietro un botto> Lascia sto Div!-->
+    <div class="container-fluid distaccamentoperilfixed azzeramentopadding p-0">
+        <!-- Div fondamentale per il giusto zoom di apertura del sito.-->
         <main role="main" class="pb-3">
+            <!--<div class="container text-center">
+         <h5 class="text-dark font-weight-normal">Chiusura seggi elettorali: </h5>
+         <h5 id="demo" class="text-dark font-weight-normal"></h5>
+
+         <script>
+             // Set the date we're counting down to
+             var countDownDate = new Date("Sep 21, 2020 15:00:00").getTime();
+
+             // Update the count down every 1 second
+             var x = setInterval(function () {
+
+                 // Get today's date and time
+                 var now = new Date().getTime();
+
+                 // Find the distance between now and the count down date
+                 var distance = countDownDate - now;
+
+                 // Time calculations for days, hours, minutes and seconds
+                 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                 var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                 // Display the result in the element with id="demo"
+                 document.getElementById("demo").innerHTML = days + "g " + hours + "h "
+                     + minutes + "m " + seconds + "s ";
+
+                 // If the count down is finished, write some text
+                 if (distance < 0) {
+                     clearInterval(x);
+                     document.getElementById("demo").innerHTML = "Seggi chiusi";
+                 }
+             }, 1000);
+         </script>
+     </div>-->
             @RenderBody()
         </main>
     </div>
 
     <footer style="background-color:#f5a045"class="border-top footer text-muted ">
-        <div style="color:#FFFFFF80;"class="container coloretextfooter">
-            &copy; 2020 - PolitiXitalia - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>           
+        <div style="color:#FFFFFF80;" class="container coloretextfooter p-1 text-center">
+            &copy;2020 - PolitiXitalia | Suggerimenti? <i class="fa fa-envelope-o "></i>  info@politixitalia.it<a asp-area="" asp-controller="Home" asp-action="Privacy"></a>
         </div>
         
     </footer>

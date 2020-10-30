@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Archivio";
+}
+
+<div class=" container">
+    <div class="card-deck text-center marginecarddecks">
+        <div class="card cardnumber1 cardhover p-1 " style="width: 100%;">
+            <img src="~/ImmaginiIndex/ElezioniRegionaliQuadrato.png" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard">Elezioni Regionali</h5>
+                <p class="card-text"></p>
+                <a asp-controller="Home" asp-action="ElezioniRegionali" class="btn btn-primary">Scopri di più</a>
+            </div>
+        </div>
+
+        <div class="card cardnumber2 cardhover p-1" style="width:100%">
+            <img src="~/ImmaginiIndex/ReferendumQuadrato.png" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard">Referendum</h5>
+                <p class="card-text"></p>
+                <a asp-controller="Home" asp-action="Referendum" class="btn btn-primary" alt="immagine non trovata">Scopri di più</a>
+            </div>
+        </div>
+
+        <div class="card cardnumber3 cardhover p-1" style="width: 100%;">
+            <img src="~/ImagesJpg/in arrivo.jpg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard">In arrivo...</h5>
+                <p class="card-text"></p>
+                <a asp-controller="Home" asp-action="#" class="btn btn-primary" alt="immagine non trovata">Scopri di più</a>
+            </div>
+        </div>
+    </div>     
+ </div>
+

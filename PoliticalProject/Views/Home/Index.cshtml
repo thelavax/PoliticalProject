@@ -4,66 +4,103 @@
 
 
 <div class="container text-center">
-    <h1 class="text-primary">Chi Siamo?</h1>
-    <h5>Cerchi qualcuno che ti spieghi la politica in vista dei prossimi impegni elettorali?  </h5>
-    <h5>Ti piacerebbero spiegazioni lineari, veloci, dirette?</h5>
-    <h5>Allora scegli una delle sezioni qui sotto, le abbiamo fatte proprio per questo.</h5>
+
+    <h1 class="text-primary">Benvenuto su PolitiXitalia </h1>
+    <h5 class="font-weight-normal">
+        Se sei arrivato qui, anche tu vuoi scoprire qualcosa in più sul dinamico 
+        ed intricato mondo della politica italiana di oggi. Qual è il tema caldo 
+        della settimana? Quanti termini politici conosci? Quando 
+        è cominciata la Seconda Repubblica? Scopri questo ed altro tra le nostre rubriche!
+    </h5>
+
+    <br />
+
+    <h5>
+        La politica ha una nuova narrazione: semplice e stimolante come
+        nelle tue serie tv preferite, su politixitalia.it
+    </h5>
 </div>
 
 <br />
 
-
-<div class=" container">
+<div class="container">
     <div class="card-deck text-center marginecarddecks">
-        <div class="card cardnumber1 cardhover p-1 " style="width: 100%;">
-            <img src="~/ImmaginiIndex/ElezioniRegionaliQuadrato.png" class="card-img-top" alt="immagine non trovata" />
-            <div class="card-body">
-                <h5 class="card-title nomepartitocard">Elezioni Regionali</h5>
-                <p class="card-text"></p>
-                <a asp-controller="Home" asp-action="ElezioniRegionali" class="btn btn-primary">Scopri di più</a>
-            </div>
-        </div>
 
-        <div class="card cardnumber2 cardhover p-1" style="width:100%">
-            <img src="~/ImmaginiIndex/ReferendumQuadrato.png" class="card-img-top" alt="immagine non trovata" />
-            <div class="card-body">
-                <h5 class="card-title nomepartitocard">Referendum</h5>
-                <p class="card-text"></p>
-                <a asp-controller="Home" asp-action="Referendum" class="btn btn-primary" alt="immagine non trovata">Scopri di più</a>
+        <a class="card cardnumber1 cardhover p-1 text-decoration-none" asp-controller="PoliticandoOggi" asp-action="Index" style="width: 100%;">
+            <img src="~/ImagesJpg/PoliticandoOggi.jpeg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body text-dark">
+                <h5 class="card-title nomepartitocard">Politicando oggi</h5>
+                <p class="card-text font-weight-normal">
+                    "La fidanzatina? E la Scuola?" Se anche tu in questi momenti
+                    vorresti
+                    sotterrarti allora
+                    chiedi aiuto a noi di PolitiXitalia; fatti trovare
+                    pronto cambiando
+                    subito argomento grazie a questa rubrica: ecco chiari e
+                    concisi i temi caldi del momento!
+                </p>
             </div>
-        </div>
+        </a>
 
-        <div class="card cardnumber3 cardhover p-1" style="width: 100%;">
-            <img src="~/ImmaginiIndex/PartitiQuadrato.jpg" class="card-img-top" alt="immagine non trovata" />
-            <div class="card-body">
+        <a class="card cardnumber2 cardhover p-1 text-decoration-none" asp-controller="PolitiCult" asp-action="Index" style="width:100%">
+            <img src="~/ImagesJpg/PolitiCult.jpeg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body text-dark">
+                <h5 class="card-title nomepartitocard">PolitiCult</h5>
+                <p class="card-text font-weight-normal">
+                    Chi è Sandro Pertini? Quando è
+                    cominciata
+                    la Seconda Repubblica? In cosa consiste il Patto del Nazareno? Ciò che siamo oggi
+                    è frutto di personaggi ed eventi decisivi che hanno fatto la storia del nostro
+                    Paese e di cui ancora
+                    si sente parlare: scopri il passato per entrare nel presente!
+                </p>
+            </div>
+        </a>
+
+        <a class="card cardnumber3 cardhover p-1 text-decoration-none" asp-controller="Home" asp-action="Partiti" style="width: 100%;">
+            <img src="~/ImmaginiIndex/Partiti.jpeg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body text-dark">
                 <h5 class="card-title nomepartitocard">Partiti</h5>
                 <p class="card-text"></p>
-                <a asp-controller="Home" asp-action="Partiti" class="btn btn-primary" alt="immagine non trovata">Scopri di più</a>
             </div>
-        </div>
-    </div>
-</div>
+        </a>
 
-
-
-
-<!--
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-4 colonna" style="color:red">
-            <p>Sei atterrato su un progetto che ha l'ambizione di risultare un paladino digitale della democrazia.</p>
-        </div>
-
-        <div class="col-sm-4">
-            <p>Sappi che democrazia per noi non significa soltanto poter esprimere il proprio parere politico.</p>
-        </div>
-
-        <div class="col-sm-4">
-            <p>Democrazia significa avere tutti gli strumenti e la conoscenza a portata di mano per compiere delle scelte libere.</p>
-        </div>
-
-
+      
     </div>
 
-    <hr />
-</div>-->
+    <div class="card-deck text-center marginecarddecks">
+
+        <a class="card cardnumber2 cardhover p-1 text-decoration-none" asp-controller="Home" asp-action="Index" style="width:100%">
+            <img src="~/ImagesJpg/DizionarioPolitico.jpeg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body text-dark">
+                <h5 class="card-title nomepartitocard">DizionarioPolitico</h5>
+                <p class="card-text font-weight-normal">
+                    Se anche per te leggere un articolo
+                    d'attualità politica è peggio che decifrare il geroglifico allora
+                    rimboccati
+                    le maniche e fatti aiutare dallo strumento giusto: grazie al nostro
+                    DIZIONARIO
+                    POLITICO potrai finalmente tradurre ogni termine da politichese
+                    estremo ad
+                    italiano accessibile in poche e semplici righe.
+                </p>
+            </div>
+        </a>
+
+        <a class="card cardnumber2 cardhover p-1 text-decoration-none" asp-controller="Home" asp-action="Archivio" style="width:100%">
+            <img src="~/ImagesJpg/ArchivioQuadrato.jpg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body text-dark">
+                <h5 class="card-title nomepartitocard">Archivio</h5>
+                <p class="card-text font-weight-normal"></p>
+            </div>
+        </a>
+
+        <a class="card cardnumber2 cardhover p-1 text-decoration-none" asp-controller="Home" asp-action="ChiSiamo" style="width:100%">
+            <img src="~/ImagesJpg/ChiSiamo.jpeg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body text-dark">
+                <h5 class="card-title nomepartitocard">Chi Siamo</h5>
+                <p class="card-text font-weight-normal">Se vuoi scoprire chi lavora dietro le quinte del progetto PolitiXitalia allora fai un salto qua e scopri la nostra storia!</p>
+            </div>
+        </a>
+    </div>
+    </div>

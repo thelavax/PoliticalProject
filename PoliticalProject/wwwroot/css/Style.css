@@ -3,6 +3,40 @@
   
 }
 
+.arancione{
+    background-color: orange;
+}
+
+.sfondo {
+    background-color: #f5a045;
+}
+
+.angolismussati {
+    border-radius: 0.25rem;
+}
+.citazione {
+    color: black !important;
+    font-weight: bold;
+}
+
+.immaginePianoMarshall{
+    max-height:200px;
+    max-width:300px;
+}
+.immagineSchedaElettorale{
+    max-height: 200px;
+    max-width : 300px;
+}
+.immagineLilianaSegre {
+    max-height: 200px;
+    max-width: 300px;
+    border: 2px solid;
+    border-color: #007bff;
+    border-color: #f5a045;
+}
+.bottone100percento{
+    width:100%;
+}
 .lineaorizzontale {
     margin-top: 1rem;
     margin-bottom: 1rem;

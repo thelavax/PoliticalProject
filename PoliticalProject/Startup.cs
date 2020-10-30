@@ -34,7 +34,7 @@ namespace PoliticalProject
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
-           // app.UseBrowserLink();
+           //app.UseBrowserLink();
 
             if (env.IsDevelopment())
             {

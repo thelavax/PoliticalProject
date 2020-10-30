@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <div class="card-deck text-center">
+
+        <a asp-controller="PolitiCult" asp-action="LilianaSegre" class=" card cardnumber3 cardhover p-1 text-decoration-none" style="width:100%;">
+            <img src="/ImagesJpg/LilianaSegre.jpeg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard text-dark">Liliana Segre</h5>
+            </div>
+        </a>
+
+        <a asp-controller="PolitiCult" asp-action="MonarchiaRepubblica" class="card cardnumber3 cardhover p-1 text-decoration-none" style="width: 100%;">
+            <img src="~/ImagesJpg/MonarchiaRepubblica.jpeg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard text-dark">Monarchia-Repubblica: la grande partita</h5>
+            </div>
+        </a>
+        <a asp-controller="PolitiCult" asp-action="PianoMarshall" class="card cardnumber1 cardhover p-1 text-decoration-none" style="width: 100%;">
+            <img src="~/ImagesJpg/PianoMarshallQuadratoMara.jpeg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body text-decoration-none">
+                <h5 class="card-title nomepartitocard text-dark">Il Piano Marshall in pillole</h5>
+            </div>
+        </a>
+    </div>
+
+    <div class="card-deck text-center">
+        <a asp-controller="PolitiCult" asp-action="Andreotti" class="card cardnumber2 cardhover p-1 text-decoration-none" style="width:100%">
+            <img src="~/ImagesJpg/GiulioAndreottiGiovaneQuadrato.jpg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard text-dark">Giulio Andreotti in 6 aforismi</h5>
+            </div>
+        </a>
+
+        <a asp-controller="PolitiCult" asp-action="Index" class="card cardnumber2 cardhover p-1 text-decoration-none" style="width:100%">
+            <img src="~/ImagesJpg/in arrivo.jpg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard text-dark">In Arrivo...</h5>
+            </div>
+        </a>
+
+        <a asp-controller="PolitiCult" asp-action="Index" class="card cardnumber2 cardhover p-1 text-decoration-none" style="width:100%">
+            <img src="~/ImagesJpg/in arrivo.jpg" class="card-img-top" alt="immagine non trovata" />
+            <div class="card-body">
+                <h5 class="card-title nomepartitocard text-dark">In Arrivo...</h5>
+            </div>
+        </a>
+    </div>
+</div>
