@@ -37,5 +37,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult Francia()
+        {
+            return View();
+        }
     }
 }
