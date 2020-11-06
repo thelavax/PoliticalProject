@@ -32,5 +32,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult IlPiuGrandeEsodoDellaStoria()
+        {
+            return View();
+        }
     }
 }
