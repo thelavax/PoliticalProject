@@ -41,5 +41,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult LeggeOmotransfobia()
+        {
+            return View();
+        }
     }
 }
