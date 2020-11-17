@@ -19,6 +19,14 @@
     font-weight: bold;
 }
 
+.bigImagePolitiCult {
+    max-height: 600px;
+    width: 100%;
+    border: 2px solid;
+    border-color: #007bff;
+    border-color: #f5a045;
+}
+
 .immaginePianoMarshall{
     max-height:200px;
     max-width:300px;

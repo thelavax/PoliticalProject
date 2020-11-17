@@ -46,5 +46,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult TikTokVsAmerica()
+        {
+            return View();
+        }
     }
 }
