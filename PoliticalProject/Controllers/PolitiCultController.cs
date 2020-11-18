@@ -37,5 +37,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult LItalianaUrsula()
+        {
+            return View();
+        }
     }
 }
