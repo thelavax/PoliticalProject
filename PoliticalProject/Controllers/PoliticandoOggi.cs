@@ -51,5 +51,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult ComeAvereSoldiGratis()
+        {
+            return View();
+        }
     }
 }
