@@ -56,5 +56,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult EssereDonnaNelXXISecolo()
+        {
+            return View();
+        }
     }
 }
