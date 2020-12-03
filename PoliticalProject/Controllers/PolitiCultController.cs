@@ -42,5 +42,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult ManiPulite()
+        {
+            return View();
+        }
     }
 }
