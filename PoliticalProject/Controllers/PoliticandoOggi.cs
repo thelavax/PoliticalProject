@@ -60,5 +60,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult PagaLeTasseEVinci()
+        {
+            return View();
+        }
     }
 }
