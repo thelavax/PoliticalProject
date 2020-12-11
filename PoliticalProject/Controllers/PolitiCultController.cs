@@ -47,5 +47,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult IlGrandeSegretoDellaSpagnola()
+        {
+            return View();
+        }
     }
 }
