@@ -52,5 +52,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult IlPresidenteAzzurro()
+        {
+            return View();
+        }
     }
 }
