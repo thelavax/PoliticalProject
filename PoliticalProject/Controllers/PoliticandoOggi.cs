@@ -71,10 +71,9 @@ namespace PoliticalProject.Controllers
             return View();
         }
 
-        public IActionResult IlRecoveryFund()
+        public IActionResult LaFineDelContante()
         {
             return View();
         }
-
     }
 }
