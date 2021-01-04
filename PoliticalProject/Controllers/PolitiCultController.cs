@@ -57,5 +57,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult SetteGennaio()
+        {
+            return View();
+        }
     }
 }
