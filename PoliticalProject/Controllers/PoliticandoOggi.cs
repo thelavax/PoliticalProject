@@ -70,5 +70,11 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult IlRecoveryFund()
+        {
+            return View();
+        }
+
     }
 }
