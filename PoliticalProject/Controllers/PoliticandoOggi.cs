@@ -79,7 +79,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult Il2020inbiancoenero()
+        {
+            return View();
+        }
 
-       
     }
 }
