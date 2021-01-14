@@ -61,5 +61,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult IlTrasformismoEDePretis()
+        {
+            return View();
+        }
     }
 }
