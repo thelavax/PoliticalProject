@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <None Include="wwwroot\ImagesJpg\forzaitalia.jpg" />
+    <None Include="wwwroot\PolitiCult\ScilipotiECariddi.jpeg" />
   </ItemGroup>
 
   <ItemGroup>

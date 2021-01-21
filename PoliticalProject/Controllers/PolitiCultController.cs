@@ -65,5 +65,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult ScilipotiECariddi()
+        {
+            return View();
+        }
     }
 }
