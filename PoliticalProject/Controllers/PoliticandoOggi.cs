@@ -84,5 +84,9 @@ namespace PoliticalProject.Controllers
             return View();
         }
 
+        public IActionResult UnAustraliaSenzaGoogle()
+        {
+            return View();
+        }
     }
 }
