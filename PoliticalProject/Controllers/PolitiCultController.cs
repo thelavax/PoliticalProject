@@ -70,5 +70,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult IlFebbraioPerfetto()
+        {
+            return View();
+        }
     }
 }
