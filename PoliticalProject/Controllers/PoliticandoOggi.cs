@@ -88,5 +88,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult FiveMinutesCrisis()
+        {
+            return View();
+        }
     }
 }
