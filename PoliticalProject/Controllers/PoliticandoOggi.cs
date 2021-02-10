@@ -92,5 +92,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult TecniciVsPolitici()
+        {
+            return View();
+        }
     }
 }
