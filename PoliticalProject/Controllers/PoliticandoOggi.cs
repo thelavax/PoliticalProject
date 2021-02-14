@@ -96,5 +96,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult RedditWallStreet()
+        {
+            return View();
+        }
+        
     }
 }
