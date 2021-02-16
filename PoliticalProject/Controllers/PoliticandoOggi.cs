@@ -100,6 +100,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
-        
+        public IActionResult Riti()
+        {
+            return View();
+        }
+
     }
 }
