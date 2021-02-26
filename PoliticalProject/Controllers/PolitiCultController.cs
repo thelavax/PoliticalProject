@@ -78,5 +78,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult IlManualeCencelli()
+        {
+            return View();
+        }
     }
 }

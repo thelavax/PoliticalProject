@@ -92,5 +92,18 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult TecniciVsPolitici()
+        {
+            return View();
+        }
+        public IActionResult RedditWallStreet()
+        {
+            return View();
+        }
+        public IActionResult Riti()
+        {
+            return View();
+        }
+
     }
 }
