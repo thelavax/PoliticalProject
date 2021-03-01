@@ -104,6 +104,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
-
+        public IActionResult IPianiDelNuovoGoverno()
+        {
+            return View();
+        }
     }
 }
