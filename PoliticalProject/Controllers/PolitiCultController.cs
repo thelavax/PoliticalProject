@@ -82,5 +82,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult NildeIotti()
+        {
+            return View();
+        }
     }
 }
