@@ -108,5 +108,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult UnAssembramentoSpaziale()
+        {
+            return View();
+        }
     }
 }
