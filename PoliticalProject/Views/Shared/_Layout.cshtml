@@ -36,8 +36,18 @@
                 <div class="collapse navbar-collapse " id="navbarResponsive">
                     <ul class="navbar-nav font-weight-bold" style="font-size:large">
                         <li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="PoliticandoOggi" asp-action="Index">Politicando Oggi</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="PolitiCult" asp-action="Index">PolitiCult</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Rubriche
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" asp-controller="PoliticandoOggi" asp-action="Index">PoliticandoOggi</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-controller="PolitiCult" asp-action="Index">PolitiCult</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-controller="PolitiWorld" asp-action="Index">PolitiWorld</a>
+                            </div>
+                        </li>
                         <li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="Partiti">Partiti</a></li>
                         <li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="Archivio">Archivio</a></li>
                         <li class="nav-item "><a class="nav-link" asp-controller="Home" asp-action="ChiSiamo">Chi Siamo</a></li>
