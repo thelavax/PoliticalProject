@@ -112,5 +112,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult Agenda2030()
+        {
+            return View();
+        }
     }
 }
