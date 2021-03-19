@@ -86,5 +86,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult Autarchia()
+        {
+            return View();
+        }
     }
 }
