@@ -90,5 +90,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult GuerraFreddolina()
+        {
+            return View();
+        }
     }
 }
