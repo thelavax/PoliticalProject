@@ -116,5 +116,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult ElogioAllaPolitica()
+        {
+            return View();
+        }
     }
 }
