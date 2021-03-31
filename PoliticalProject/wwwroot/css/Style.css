@@ -30,6 +30,13 @@
     border-color: #f5a045;
 }
 
+.bigImagePolitiTech {
+    max-height: 400px;
+    width: 60%;
+    border: 2px solid;
+    border-color: #007bff;
+    border-color: #f5a045;
+}
 .immaginePianoMarshall{
     max-height:200px;
     max-width:300px;

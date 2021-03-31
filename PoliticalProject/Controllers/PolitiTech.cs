@@ -12,5 +12,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult LaNascitaDiUnaNuovaRealta()
+        {
+            return View();
+        }
     }
 }
