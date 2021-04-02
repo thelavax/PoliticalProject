@@ -94,5 +94,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult IlCanaleDiNostrez()
+        {
+            return View();
+        }
     }
 }
