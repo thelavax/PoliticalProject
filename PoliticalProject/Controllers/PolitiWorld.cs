@@ -12,5 +12,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult Quandolastorianoninsegna()
+        {
+            return View();
+        }
     }
 }
