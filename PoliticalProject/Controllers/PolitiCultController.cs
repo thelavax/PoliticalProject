@@ -99,5 +99,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult QuandoLaTerraTrema()
+        {
+            return View();
+        }
     }
 }
