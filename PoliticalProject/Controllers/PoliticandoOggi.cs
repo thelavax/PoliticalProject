@@ -120,5 +120,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult RiformaBrunetta()
+        {
+            return View();
+        }
     }
 }
