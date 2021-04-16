@@ -104,5 +104,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult LOLIPoliticiCheVorremmo()
+        {
+            return View();
+        }
     }
 }
