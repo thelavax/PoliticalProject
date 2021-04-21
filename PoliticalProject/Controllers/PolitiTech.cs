@@ -17,5 +17,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult CentraliNucleariSottoAssedio()
+        {
+            return View();
+        }
     }
 }
