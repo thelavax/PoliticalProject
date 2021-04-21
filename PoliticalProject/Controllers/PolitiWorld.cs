@@ -16,5 +16,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult SullaPuntaIceberg()
+        {
+            return View();
+        }
     }
 }
