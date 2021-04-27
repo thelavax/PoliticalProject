@@ -124,5 +124,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult DraghiPnrr()
+        {
+            return View();
+        }
     }
 }
