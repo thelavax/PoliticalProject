@@ -22,5 +22,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult DueMiliardiDiCryptoRubati()
+        {
+            return View();
+        }
     }
 }
