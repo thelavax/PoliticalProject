@@ -109,5 +109,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult PrimoMaggio()
+        {
+            return View();
+        }
     }
 }
