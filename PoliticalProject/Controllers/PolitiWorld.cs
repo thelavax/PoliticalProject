@@ -20,5 +20,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult TuttoAMaggio()
+        {
+            return View();
+        }
     }
 }
