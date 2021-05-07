@@ -109,5 +109,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult LoggiaP2()
+        {
+            return View();
+        }
     }
 }
