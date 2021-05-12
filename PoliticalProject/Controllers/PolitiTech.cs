@@ -27,5 +27,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult ProssimaMacchinaElettrica()
+        {
+            return View();
+        }
     }
 }
