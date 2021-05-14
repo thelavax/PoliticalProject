@@ -128,5 +128,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult StateOfTheUnion()
+        {
+            return View();
+        }
     }
 }

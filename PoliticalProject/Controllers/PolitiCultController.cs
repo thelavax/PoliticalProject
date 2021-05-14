@@ -110,6 +110,11 @@ namespace PoliticalProject.Controllers
             return View();
         }
 
+        public IActionResult LoggiaP2()
+        {
+            return View();
+        }
+
         public IActionResult PrimoMaggio()
         {
             return View();
