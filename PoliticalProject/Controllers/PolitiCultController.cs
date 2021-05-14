@@ -119,5 +119,10 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+
+        public IActionResult IlConflittoBiancoNero()
+        {
+            return View();
+        }
     }
 }
