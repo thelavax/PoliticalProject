@@ -25,5 +25,9 @@ namespace PoliticalProject.Controllers
         {
             return View();
         }
+        public IActionResult AmarsiinCina()
+        {
+            return View();
+        }
     }
 }
